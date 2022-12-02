@@ -1,0 +1,13 @@
+TeamCity 
+1. check jobs and their structures -Study the settings, commands and how
+2. check agents C: drives and D: drives
+3. Check TeamCity Confluence page: https://developers.confluence.igt.com/pages/viewpage.action?spaceKey=TC&title=Server+Configuration
+Agents: https://developers.confluence.igt.com/display/TC/Agent+and+Host+Configuration
+https://developers.confluence.igt.com/display/TC/TeamCity+Pro
+
+API
+http://10.213.104.12/app/rest/server
+http://10.213.104.12/app/rest/agents
+http://10.213.104.12/app/rest/agents/id:3
+
+<property name="teamcity.agent.work.dir.freeSpaceMb" value="76451"/>

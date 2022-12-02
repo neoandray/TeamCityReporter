@@ -1,0 +1,17 @@
+docker run -d --name teamcity-server   \
+--restart=always     \
+-e TEAMCITY_SERVER_MEM_OPTS="-Xmx2g -XX:MaxPermSize=270m -XX:ReservedCodeCacheSize=640m" \
+-e TEAMCITY_HTTPS_PROXY_ENABLED=true \
+-v /mnt/c/Users/jgw51912/Containers/teamcity/data:/data/teamcity_server/datadir  \
+-v /mnt/c/Users/jgw51912/Containers/teamcity/opt:/opt \
+-p 8111:8111 \
+jetbrains/teamcity-server
+\
+
+docker run -d --name teamcity-server   \
+--restart=always     \
+-e TEAMCITY_SERVER_MEM_OPTS="-Xmx2g -XX:MaxPermSize=270m -XX:ReservedCodeCacheSize=640m" \
+-v /mnt/c/Users/jgw51912/Containers/teamcity/data:/data/teamcity_server/datadir  \
+ -v /mnt/c/Users/jgw51912/Containers/teamcity/opt/teamcity/logs:/opt/teamcity/logs   \
+-p 8111:8111 \
+jetbrains/teamcity-server

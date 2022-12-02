@@ -1,0 +1,13 @@
+﻿Installing assembly 'C:\Users\jgw51912\Documents\T\TeamCity\TeamCityReporter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\jgw51912\Documents\T\TeamCity\TeamCityReporter.exe
+   logfile = C:\Users\jgw51912\Documents\T\TeamCity\TeamCityReporter.InstallLog
+Installing service TeamCityReporter...
+Service TeamCityReporter has been successfully installed.
+Creating EventLog source TeamCityReporter in log Application...
+Committing assembly 'C:\Users\jgw51912\Documents\T\TeamCity\TeamCityReporter.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Users\jgw51912\Documents\T\TeamCity\TeamCityReporter.exe
+   logfile = C:\Users\jgw51912\Documents\T\TeamCity\TeamCityReporter.InstallLog
