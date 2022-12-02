@@ -1,5 +1,5 @@
 ﻿
-$encodedBytes    = [System.Text.Encoding]::UTF8.GetBytes("Bolaji:TeamC1tyNe0123!")
+$encodedBytes    = [System.Text.Encoding]::UTF8.GetBytes("Bolaji:")
 $encodedText     = [System.Convert]::ToBase64String($encodedBytes)
 $serverResponse   = (iwr -UseBasicParsing -uri http://10.213.104.12/app/rest/server -Headers @{"contents"="text/xml"; "Authorization"="Basic $encodedText"}).content
 $serverResponse   =  [xml]$serverResponse
